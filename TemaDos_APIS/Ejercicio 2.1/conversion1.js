@@ -1,12 +1,14 @@
-// Saul Alexander Che Caamal s
-const  objetoJavaScript = {
+
+// Saul Alexander Che Caamal
+const objetoJavaScript = {
     nombre: "Taco de Pollo",
-    Ingredientes: {
+    ingredientes: {
         proteina: "Pollo",
         salsa: "Salsa Verde"
     }
 };
 
+//serealizar es convertir a JSON
 const jsonString = JSON.  stringify(objetoJavaScript);
 
-consola.  log(jsonString);
+console.  log(jsonString);
