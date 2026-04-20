@@ -1,0 +1,41 @@
+body {
+  background: #1e1e2f;
+  color: rgb(163, 162, 171);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Contenedor tipo tarjeta */
+.card {
+  background: #2c2c3e;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* Imagen */
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+/* Título del anime */
+h2 {
+  margin: 10px 0;
+}
+
+/* Sinopsis */
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
