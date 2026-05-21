@@ -6,9 +6,7 @@ import { dirname } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-/*import.meta.url proporciona la URL del modulo actual.
-fileURLTo path(import.meta.url) convierte esa URL en una ruta de archivo.
-dirname() recupera el nombre del directorio a partir de la ruta del archivo. */
+
 
 console.log(__dirname);
 
